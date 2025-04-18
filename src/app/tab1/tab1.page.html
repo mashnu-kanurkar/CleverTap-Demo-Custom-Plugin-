@@ -14,4 +14,16 @@
   </ion-header>
 
   <app-explore-container name="Tab 1 page"></app-explore-container>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>CleverTap Plugin Actions</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-button expand="block" (click)="sendEvent()">Send CleverTap Event</ion-button>
+      <ion-button expand="block" color="secondary" (click)="loginUser()">Login User to CleverTap</ion-button>
+      <ion-button expand="block" color="tertiary" (click)="createChannel()">Create Notification Channel</ion-button>
+    </ion-card-content>
+  </ion-card>
 </ion-content>
