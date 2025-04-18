@@ -1,0 +1,3 @@
+[submodule "clevertap-custom"]
+	path = clevertap-custom
+	url = https://github.com/mashnu-kanurkar/clevertap-custom.git
